@@ -1,5 +1,7 @@
 # Slumber
 
+**Supported platform: Arch Linux + Hyprland only.** Other distributions, compositors and operating systems are outside this repo's supported setup.
+
 Screen off, work still running. A separate home for my Hyprland / end-4 Slumber setup, with password locking, lid behaviour and coding-app notifications.
 
 ## Read this first
