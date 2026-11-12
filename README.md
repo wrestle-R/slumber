@@ -1,8 +1,8 @@
 # Slumber
 
-**Arch Linux + Hyprland only.** A niche problem, but something I really wanted.
+**Arch Linux + Hyprland only.** This is a pretty niche problem but I really wanted it.
 
-Linux sleep has been rough in my experience, and Windows wasn't great either. I've heard Mac handles it better. Sometimes I just want Codex or an LLM to keep working while I'm away, with the screen off to save battery, even with the lid open.
+Linux sleep has been rough for me, and Windows wasn't great either (I've heard Mac handles it better). Sometimes I just want Codex or an LLM to keep working while I'm away, with the screen off to save battery, even if I don't close the lid.
 
 Slumber locks the session, turns the displays off and keeps background work running. **Super+Ctrl+L** or the sidebar play button activates it. The sidebar also lets you choose **Sleep / Slumber** for closing the lid.
 
