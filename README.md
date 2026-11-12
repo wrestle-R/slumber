@@ -1,8 +1,45 @@
 # Slumber
 
-**Supported platform: Arch Linux + Hyprland only.** Other distributions, compositors and operating systems are outside this repo's supported setup.
+**Arch Linux + Hyprland only.** This is a niche problem to solve, obviously, but it was annoying enough that I wanted a proper button for it.
 
-Screen off, work still running. A separate home for my Hyprland / end-4 Slumber setup, with password locking, lid behaviour and coding-app notifications.
+Linux sleep has been pretty rough in my experience. Coming from Windows, one thing I kept wanting was a way to turn the screen off and leave the work running. Windows sleep has its own problems too, and I've heard good things about Mac sleep, but I haven't tested that comparison myself.
+
+Sometimes Codex or another coding agent is running, sometimes it's an LLM doing its thing, and I'm not actually sitting there monitoring it. I want the display off, the session locked and the background processes still working. Even when I leave the lid open. Turning off the display saves the power the display would otherwise use, though the running jobs still use battery. No battery-life numbers promised here.
+
+So that's Slumber. Screen off, work still running.
+
+## Install
+
+Cloning a widget alone won't wire up locking, the sidebar, lid events and idle handling. From this repository, run:
+
+```bash
+bash scripts/install.sh --check
+bash scripts/install.sh
+```
+
+The installer targets the existing end-4 setup described below, checks dependencies and file compatibility before applying the user integration, and keeps the original installer's backups and rollback checks. It does not install an entire end-4 desktop onto a fresh machine. Save shell drafts first and run while unlocked. It leaves shell restarts to you.
+
+For the complete system layer (charge-limit helper, reboot service and bundled SDDM theme), review [the system installation notes](source/README.md) first, then supply your own wallpaper:
+
+```bash
+bash scripts/install.sh --system --wallpaper /absolute/path/to/wallpaper.jpg
+```
+
+This uses Polkit authentication and installs both system components together. It never restarts SDDM. Unsupported battery hardware stays unsupported.
+
+## Different Linux setup? Copy the prompt
+
+[**Copy prompt →**](docs/copy-prompt.html)
+
+Download or clone this repo and open that page locally, or run:
+
+```bash
+bash scripts/install.sh --prompt-only
+```
+
+That installs **Slumber · Copy prompt** in your application menu and, when your desktop directory exists, a desktop launcher. Open it and press **Copy prompt**, then paste into a coding agent with filesystem and terminal access on your own device. GitHub shows HTML as source, so download the repo before opening the page. The full prompt stays out of this README.
+
+The prompt asks the agent to inspect your machine and reproduce the complete Slumber experience, including the GUI and sidebar, using the checked source as its specification. Different desktops need real integration work; it isn't a promise that every Linux setup can run this unchanged.
 
 ## Read this first
 
