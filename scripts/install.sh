@@ -71,7 +71,7 @@ done
 python3 -c 'from gi.repository import Gio' || { echo 'PyGObject/Gio is required.' >&2; exit 1; }
 if [[ "$system" == true ]]; then
     [[ "$wallpaper" == /* && -f "$wallpaper" ]] || { echo '--system requires --wallpaper with an existing absolute image path.' >&2; exit 2; }
-    for dep in pkexec magick sddm-greeter-qt6; do
+    for dep in pkexec sddm-greeter-qt6; do
         command -v "$dep" >/dev/null || { printf 'Missing system dependency: %s\n' "$dep" >&2; exit 1; }
     done
 fi
