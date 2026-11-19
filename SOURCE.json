@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/wrestle-R/Linux",
-  "commit": "eded78f198cef3a59c0299402354da611c1678a1",
+  "commit": "6ed61ea720a1bdba3e09ffacb45697bf822ce2a6",
   "path": "End-4/slumber/",
   "snapshot": "Fingerprint unlock, SDDM and sudo with independent password recovery.",
   "sha256": {
@@ -11,7 +11,7 @@
     "source/LockNotifications.qml": "6250530e6d9f5c4f8e50f6410b05769863987685b4158cad8e75d17d6e604acd",
     "source/NotificationPolicy.js": "cc0400803e13398cc79c1480536d6797b9a8e0c1b8371da8cc271359bf7ccc8c",
     "source/NotificationsConfig.qml": "44495378db7fc9ea0e979ee27ed0fa43c60ca286e9ba98e140a5fb51a1ed3602",
-    "source/README.md": "e9f4cdc7a736b7bcb0eec01aaa3e5ba6d989d93e9f148ea1275a96fe3682f79a",
+    "source/README.md": "d5e0809b0190def7f50c85550a01bf88d2bde60e39f73b0e9d92e198a50c1bbb",
     "source/Slumber.qml": "03aee2a80bd4eb84697ccc1b5483b51a9336e6183ebf361c6d128abb02893ca2",
     "source/VERIFICATION.md": "ff869a6c323551b47bf3b4f6ebc9eab36a1caa2a4b16e65b58a6c20a7e8ef090",
     "source/asset-versions.json": "c0939990b12541668007ae5c67bbf5b2f680ff94a298f24433b7673bca6637e6",
@@ -36,7 +36,7 @@
     "source/test_notification_policy.cjs": "96ee611ceb50b727b09deb3d8ed72365695592313f8d0f0a4b9d09589c807434",
     "source/test_sddm.py": "5aa1c108546bfd8b56ff51ae9c25fa94ffdb917787e9de68b4848353971ee9dd",
     "source/theme_tools.py": "3948d36705771052f6d1811f5a93f63da7bdd17a378458705fb6bfeb9df01841",
-    "source/fingerprint-auth.py": "a81d75bfcab01febb6df2a97ba392fa4a32478815eae2e5c4222311330059d22",
-    "source/test_fingerprint_auth.py": "f419f4aa4e5b6f7447ca05c91eb5edf2eaf5fe048b6b8d2b5043fbf7b3f2850e"
+    "source/fingerprint-auth.py": "326835549499c9ca8d070a0ac29b72989f0980126b36da9cf3ee8f5e262a52c0",
+    "source/test_fingerprint_auth.py": "f752d4b50f263a0351542302b21d4683ce6dde76bb2e8b3d75cf0e24a197b090"
   }
 }
