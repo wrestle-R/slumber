@@ -1,8 +1,8 @@
 {
   "repository": "https://github.com/wrestle-R/Linux",
-  "commit": "cacdc193e2d4e265b5ce0b4c6d2b36f3fa84ca86",
+  "commit": "008e71cd61f9ba6d16f25d90d9f415668271ab46",
   "path": "End-4/slumber/",
-  "snapshot": "Password-only SDDM, automatic lock fingerprint retries and concurrent sudo authentication.",
+  "snapshot": "Fingerprint settings with responsive navigation, password-only SDDM and concurrent sudo authentication.",
   "sha256": {
     "source/.gitignore": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b",
     "source/ChargeLimit.qml": "5b148df3937b39014cf8ae14b8ffb114442485b0dab362a0db93cbd2ccdc09c4",
@@ -11,16 +11,16 @@
     "source/LockNotifications.qml": "6250530e6d9f5c4f8e50f6410b05769863987685b4158cad8e75d17d6e604acd",
     "source/NotificationPolicy.js": "cc0400803e13398cc79c1480536d6797b9a8e0c1b8371da8cc271359bf7ccc8c",
     "source/NotificationsConfig.qml": "44495378db7fc9ea0e979ee27ed0fa43c60ca286e9ba98e140a5fb51a1ed3602",
-    "source/README.md": "60e1c440aed44af3368bb1bbe87114425dd5da842eb697580208d6138bf1ee9c",
+    "source/README.md": "cbf0a2fbe2bb8c5feb4b9d4c3aef791c71fedc2a2b463362201f6bd26fcfba5b",
     "source/Slumber.qml": "03aee2a80bd4eb84697ccc1b5483b51a9336e6183ebf361c6d128abb02893ca2",
-    "source/VERIFICATION.md": "844ea096dba56db956e1d9d5b8553d15ea847d6151a7af0b6b247714acbf0e14",
-    "source/asset-versions.json": "c0939990b12541668007ae5c67bbf5b2f680ff94a298f24433b7673bca6637e6",
-    "source/assets.json": "1628cade696bb1b281559f3982ee76b06b32853a5cdb4f20ad02e7f71e9c8113",
+    "source/VERIFICATION.md": "b7cfc4eedee71d07d3483a1e70884bb1497cecc0c2418cb6c66b0016fa6a6531",
+    "source/asset-versions.json": "c3343491d81453da29a2518dbef86a313e65896cd9eb85ca64e752464faeb21a",
+    "source/assets.json": "ef80ad712dbbfd34615ec0678c70b6dcc5e655f2fa8fe39e85c52d44b95ae09e",
     "source/battery_status.py": "90b9044815c44dcab90876fff23792ced63884f520fac65d792bcab6fed37584",
     "source/charge_limit.py": "5ab9ab6ed382eaf1b742753ded4343e506b2c9f5782d0f17b2487f5e763dd6a6",
     "source/customizations.py": "1a2c439ee384c221f25b8a7a3227a6a87da7c91709c16d7698e58a18cabad7f3",
     "source/install-system.py": "f2e04b0433b6c112b0df486a8c8883125be07199cbf56a61cb81c342d83cb73f",
-    "source/integration.json": "1f72f4eb15cde6d2a3d5060b46050c14f2bc1b94d3a6d27d11e165774676139d",
+    "source/integration.json": "5f56d548184e4509e91099065638ac8a26c6cefd38b01a70432a31e96f3f2cac",
     "source/rdp-charge-limit.service": "38a057ff2e93410306ded92e82fceb3531e5b2d39f7710f04c2ae98560b5e8d3",
     "source/sddm-test.qml.fixture": "d869503d503283e5f853ff8da02f2a32bbe5073f3fc9ea9a789d02e3fd9ce958",
     "source/sddm/Main.qml": "7d0bc6ef475472cf36d23cb2434aa168576b77ad0e39daaee0c56c5b6d3357d5",
@@ -38,6 +38,10 @@
     "source/theme_tools.py": "3948d36705771052f6d1811f5a93f63da7bdd17a378458705fb6bfeb9df01841",
     "source/fingerprint-auth.py": "e1413e53edda8383f33c69c2dbaf7c67142b8e004a742befc8fdc84af623ddc6",
     "source/test_fingerprint_auth.py": "437c3d9d615bcbe4521ce8bbeec473cca108fbd49b948474fedd41b6addc7c43",
-    "source/test_lock_auth.py": "fb6795b701a693789b7e95f8c54eed39922fb1191f2fad03a2355b48daeb46aa"
+    "source/test_lock_auth.py": "fb6795b701a693789b7e95f8c54eed39922fb1191f2fad03a2355b48daeb46aa",
+    "source/FingerprintConfig.qml": "32bb9b7bc652481800ac354bca04bceeb074628250589441aac13ffb34aa52e3",
+    "source/fingerprint_settings.py": "dd4e228712b1fca1fb2c0dc52440e18aeac3c7222255bbdc586a4be9c2cf4cd8",
+    "source/test_fingerprint_settings.py": "60927debc9a301cdec5fcde0d1e385ff8fff4619dd88e76d4c73e2bbd4e02923",
+    "source/test_fingerprint_ui.py": "3a00c74650bb49696f5c98bd8d873aa3912f1f887547100b1404e3616dedb56d"
   }
 }
